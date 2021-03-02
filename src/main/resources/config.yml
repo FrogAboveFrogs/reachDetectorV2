@@ -1,0 +1,24 @@
+# little note: this only DETECTS reach hax, NOT PATCHES them, nearly useless for anarchy servers
+
+# vanilla hit distance
+base-dist: 3
+# error to measuring distance
+measure-error: 0.2
+# reached hits needed to be "collected" to kick player
+times-to-punish: 10
+# when last reached hit was made more then this time ago, reached hits will be reset
+seconds-to-terminate: 90
+# this much more reach will be tolerated per each ms of ping
+ping-error: 0.006
+# send players that they supposedly reach hacked or they reached hits count reset?
+send-priv-msgs: false
+# announces player kick reason to public chat
+announce-kicks: true
+# are we banning players?
+need-banning: true
+# after how many kicks player is banned
+kicks-to-ban: 6
+# explains itself (it matters only if above is true)
+ban-time-hours: 24
+# do we need to also ban IP? (its temporary look 1 line above)
+ban-IP: false

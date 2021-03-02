@@ -1,0 +1,6 @@
+name: ReachDetect
+version: ${project.version}
+main: me.frog.reachdetect.ReachDetect
+api-version: 1.16
+authors: [ Frog ]
+description: Detects higher attack reach (reach hax too)
