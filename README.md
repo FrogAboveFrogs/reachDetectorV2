@@ -1,2 +1,6 @@
 # reachDetectorV2
-spigot plugin to ezz reach hackers
+
+detect reach hacks, good config
+if you think its backdoored read the code, if you think its bad update ann realese V3 (i dont care much about credits)
+
+# good luck :)
