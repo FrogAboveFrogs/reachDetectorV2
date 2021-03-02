@@ -91,7 +91,6 @@ public final class ReachDetect extends JavaPlugin implements Listener {
                 if (sendPrivMsgs) {
                     event.getDamager().sendMessage("Your reach was greater then it should be.");
                 }
-                event.getDamager().sendMessage(((Long) abs(System.currentTimeMillis()-lastTime.get(event.getDamager()))).toString());
                 if (((Long) abs(System.currentTimeMillis()-lastTime.get(event.getDamager()))) > ((Long) (1000L*secondsTerminate))) {
                     reachedTimes.replace((Player) event.getDamager(), 0);
                     if (sendPrivMsgs) {
